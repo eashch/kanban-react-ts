@@ -1,0 +1,27 @@
+
+.kanban {
+    background-color: #0079BF;
+    width: 100vw;
+    margin-top: 75px;
+}
+
+.kanban-container {
+    background-color: transparent; 
+    max-width: 1235px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1235px) {
+    .kanban-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+    }
+}

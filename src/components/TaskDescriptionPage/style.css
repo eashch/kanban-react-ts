@@ -1,0 +1,61 @@
+
+.task-description-page {
+    background-color: #0079BF;
+    width: 100vw;
+    margin-top: 75px;
+}
+
+.task-description-page-container {
+    background-color: transparent; 
+    max-width: 1235px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.task-description {
+    background-color: white;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 0px 12px 26px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 17px 23px 17px 28px;
+    box-sizing: border-box;
+    height: calc(100vh - 152px);
+}
+
+.task-description-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task-description-header__title {
+    color: #000;
+    font-size: 24px; 
+}
+
+@media (max-width: 1235px) {
+    .task-description-header__title {
+        font-size: 18px; 
+    }
+}
+
+.task-description__textarea-description {
+    color: #000;
+    font-size: 18px; 
+    resize: none;
+    border: none;
+    max-width: 621px;
+    flex-grow: 1;
+}
+
+.task-description-header__button-close {
+    background-color: transparent;
+}
